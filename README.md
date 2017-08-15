@@ -60,8 +60,8 @@ $: bundle install
 $: rspec
 ```
 
-***Run Program**
+**Run Program**
 
 ```
-./robot input.txt
+$: ./robot input.txt
 ```
