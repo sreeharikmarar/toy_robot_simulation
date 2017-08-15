@@ -19,7 +19,6 @@ module Commands
 
   def move_forward
     raise Error::InvalidPosition.new("can't move further! invalid position") unless can_move?(next_position)
-    raise Error::InvalidCellException.new("can't move further! blocking cell") if blocking_cell?(next_position)
     @position = next_position
   end
 
@@ -53,10 +52,5 @@ module Commands
   def can_move?(next_position)
     x, y = next_position.coordinates
     ((0...@building.max_x) === x && (0...@building.max_y) === y)
-  end
-
-  def blocking_cell?(next_position)
-    x, y = next_position.coordinates
-    @building.get_cell(x,y).has_obstucle
   end
 end

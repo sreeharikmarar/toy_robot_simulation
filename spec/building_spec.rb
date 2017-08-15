@@ -40,7 +40,7 @@ RSpec.describe Building do
     let (:building) { Building.new(2,2) }
 
     it "should validate robots position is inside valid boundary" do
-      robot = Robot.new(0,0,"N","R")
+      robot = Robot.new(2,3,"N","R")
       expect{ building.place(robot) }.to raise_exception(Error::InvalidArgument)
     end
 
