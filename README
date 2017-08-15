@@ -1,0 +1,38 @@
+******* README ******
+
+## install dependencies 
+
+	$: gem install bundler 		// if bundler is not installed 
+	$: bundle install 			// installs rspec gem 
+
+
+
+## run tests
+
+	$: rspec
+
+
+
+
+## run program
+
+	$: ./robot input.txt
+
+
+
+
+## other valid input
+
+	$: ./robot input_2.txt
+
+
+
+
+## other invalid inputs
+    
+    $: ./robot invalid.txt
+	$: ./robot invalid_1.txt
+	$: ./robot invalid_2.txt
+	$: ./robot invalid_3.txt
+	$: ./robot invalid_4.txt
+	$: ./robot invalid_5.txt

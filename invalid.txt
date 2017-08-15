@@ -1,0 +1,5 @@
+4 6
+0 0 N R
+FFRFIFIRFIF
+1 2 S G
+FIFF
