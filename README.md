@@ -54,13 +54,13 @@ EEEEE
 $: bundle install
 ```
 
-***Run Tests***
+**Run Tests**
 
 ```
 $: rspec
 ```
 
-*** Run Program***
+***Run Program**
 
 ```
 ./robot input.txt
